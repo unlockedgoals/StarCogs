@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Jake",
+    "INSTALL_MSG" : "You have successfully installed kiss. Now kiss your senpai/waifu!",
+    "NAME" : "kiss",
+    "SHORT" : "[p]kiss @user",
+    "DESCRIPTION" : "kiss your senpai/waifu!",
+    "TAGS" : ["kiss"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
+}
