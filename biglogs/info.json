@@ -1,0 +1,7 @@
+{
+    "AUTHOR" : "Jake",
+    "NAME" : "biglogs",
+    "SHORT" : "Keep tabs on your server.",
+    "DESCRIPTION" : "Be a despotic dictator and keep tabs on everything that happens on the server.",
+    "TAGS": ["tracking", "logging", "modding"]
+}
