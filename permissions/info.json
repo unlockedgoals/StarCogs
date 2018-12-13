@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Jake",
+    "DESCRIPTION" : "Keep in mind that Role based permissions will override channel based permissions!",
+    "DISABLED" : false,
+    "SHORT" : "Custom command permissions",
+    "NAME" : "Permissions",
+    "REQUIREMENTS" : ["tabulate"],
+    "INSTALL_MSG" : "hi friend"
+}
