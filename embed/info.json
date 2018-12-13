@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Jake",
+    "SHORT" : "Makes embeds for multipurpose use!",
+    "DESCRIPTION" : "Makes an embed DUH",
+    "DISABLED" : false,
+    "NAME" : "embed",
+    "TAGS" : ["utility", "mass mentions", "everyone"],
+    "INSTALL_MSG" : "This command is made to create embeds."
+}
