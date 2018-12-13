@@ -1,0 +1,10 @@
+{
+	"AUTHOR" : "Jake",
+    "INSTALL_MSG" : "Thanks for downloading this message cog",
+	"NAME" : "say",
+	"SHORT" : "Allows you to make your bot say or upload something",
+	"DESCRIPTION" : "This cog will allow you to make your bot say your message, with auto-deletion of the command message, channel argument, DM or even file upload, like gif or png",
+	"TAGS" : ["upload", "say", "message"],
+	"REQUIREMENTS" : [],
+	"HIDDEN" : false
+}
