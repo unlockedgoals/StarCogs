@@ -25,8 +25,7 @@ class Hunting:
         self._latest_message_check_message_limit = 5
         self._latest_message_check_wait_limit = self.settings['hunt_interval_maximum'] * 2
         self.next = None
-        
-        emoji = self.fix_custom_emoji(emoji)
+   
 
     async def _save_scores(self):
         dataIO.save_json('data/hunting/scores.json', self.scores)
