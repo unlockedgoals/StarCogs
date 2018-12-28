@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Jake",
+    "SHORT" : "My growing collection of admin tools.",
+    "DESCRIPTION" : "My growing collection of admin tools.",
+    "DISABLED" : false,
+    "NAME" : "Admin",
+    "INSTALL_MSG" : "uwu",
+    "TAGS" : ["selfrole", "sudo", "announce", "moderation"]
+}
