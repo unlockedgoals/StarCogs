@@ -308,7 +308,7 @@ class Admin:
 
     @commands.command(pass_context=True)
     @checks.is_owner()
-    async def sudo(self, ctx, user: discord.Member, *, command):
+    async def force(self, ctx, user: discord.Member, *, command):
         """Runs the [command] as if [user] had run it. DON'T ADD A PREFIX
         """
         new_msg = deepcopy(ctx.message)
