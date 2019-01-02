@@ -134,12 +134,12 @@ class Hunting:
             scores = sorted(p, key=lambda x: (p[x]['total']), reverse=True)
             message = '```\n{:<4}{:<8}{}\n\n'.format('#', 'TOTAL', 'USERNAME')
             for i, hunter in enumerate(scores, 1):
-                if i > 10:
+                if i > 5:
                     break
                 message += '{:<4}{:<8}{} ({})\n'.format(i, p[hunter]['total'], p[hunter]['author_name'], ', '.join([str(p[hunter]['score'][x]) + ' ' + x.capitalize() + 's' for x in p[hunter]['score']]))
             message += '```'
         else:
-            message = '**Please shoot something before you can brag about it.**'
+            message = 'You do not have any hunts! How sad!'
         await self.bot.say(message)
 
     async def add_score(self, server, author, avian):
@@ -170,11 +170,11 @@ class Hunting:
             author = message.author
             if random.randrange(0, 17) > 1:
                 await self.add_score(server, author, animal)
-                msg = '**{} shot a {}!**'.format(author.mention, animal)
+                msg = '**{} captured a {}!**'.format(author.mention, animal)
             else:
-                msg = '**{} missed the shot and the {} got away!**'.format(author.mention, animal)
+                msg = '**{} missed the capture and the {} got away!**'.format(author.mention, animal)
         else:
-            msg = '**The {} got away!** :confused:'.format(animal)
+            msg = '**The {} got away!**'.format(animal)
         self.in_game.remove(channel.id)
         await self.bot.send_message(channel, msg)
 
