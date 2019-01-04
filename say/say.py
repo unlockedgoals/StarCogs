@@ -35,6 +35,8 @@ class Say:
 
         if self.settings[server.id]["autodelete"] == "1":
             await self.bot.delete_message(message)
+    
+        string.replace(/everyone, xd)
 
         else:
             pass
