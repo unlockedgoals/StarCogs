@@ -164,7 +164,7 @@ class EmbedSay:
         color = color.replace("0x", "")
         color = int(color, 16)
 
-        randnum = randint(0, 0)
+        randnum = randint(1, 10)
         empty = u"\u2063"
         emptyrand = empty * randnum
 
@@ -296,7 +296,7 @@ class EmbedSay:
         colour = ''.join([choice('0123456789ABCDEF') for x in range(6)])
         colour = int(colour, 16)
 
-        randnum = randint(1, 10)
+        randnum = randint(0, 0)
         empty = u"\u2063"
         emptyrand = empty * randnum
 
