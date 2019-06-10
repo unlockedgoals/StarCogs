@@ -164,7 +164,7 @@ class EmbedSay:
         color = color.replace("0x", "")
         color = int(color, 16)
 
-        randnum = randint(1, 10)
+        randnum = randint(0, 0)
         empty = u"\u2063"
         emptyrand = empty * randnum
 
