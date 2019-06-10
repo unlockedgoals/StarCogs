@@ -293,10 +293,10 @@ class EmbedSay:
             except:
                 await self.bot.send_message(ctx.message.author, 'Could not delete your message on ' + ctx.message.server.name)
 
-        colour = ''.join([choice('0123456789ABCDEF') for x in range(6)])
+        colour = ''.join([choice('0') for x in range(6)])
         colour = int(colour, 16)
 
-        randnum = randint(0, 0)
+        randnum = randint(1, 10)
         empty = u"\u2063"
         emptyrand = empty * randnum
 
